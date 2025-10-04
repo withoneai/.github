@@ -27,7 +27,7 @@
 Connect LLMs to 25,000+ actions with Pica-verified knowledge and developer-friendly SDKs. No keys, no configs, no headaches.
 
 Pica makes it simple to build and manage AI agents with 3 key products:
-1. **OneTool**: Connect agents to over [150+ integrations](https://picaos.com/integrations) with a single SDK. Zero-shot execution that gets smarter with every use.
+1. **ToolKit**: Connect agents to over [150+ integrations](https://picaos.com/integrations) with a single SDK. Zero-shot execution that gets smarter with every use.
 2. **AuthKit**: Streamline authentication for multi-tenant applications with secure, end-to-end OAuth flows and automated token management. Handles the complexity of authentication so you don't have to.
 3. **BuildKit**: Empower vibe coding with integrations that work zero-shot.
 
