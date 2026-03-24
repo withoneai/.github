@@ -1,34 +1,39 @@
+<img src="https://assets.withone.ai/banners/github.png" alt="One — The integration runtime for AI agents." style="border-radius: 5px;">
+
+<h3 align="center">One</h3>
+
 <p align="center">
-  <a href="https://picaos.com">
-    <img alt="Pica Logo" src="./images/header.svg" style="border-radius: 10px;">
-  </a>
+  <a href="https://withone.ai"><strong>Website</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://withone.ai/docs"><strong>Docs</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://app.withone.ai"><strong>Dashboard</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://withone.ai/knowledge"><strong>Knowledge</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://withone.ai/changelog"><strong>Changelog</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://x.com/withoneai"><strong>X</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://linkedin.com/company/withoneai"><strong>LinkedIn</strong></a>
 </p>
 
-<p align="center"><b>Pica</b> - <i>Ensuring outcomes for the AI-first world</i></p>
-
 <p align="center">
-  <b>
-    <a href="https://www.picaos.com">Website</a>
-    ·
-    <a href="https://docs.picaos.com">Documentation</a>
-    ·
-    <a href="https://app.picaos.com">Dashboard</a>
-    ·
-    <a href="https://docs.picaos.com/changelog">Changelog</a>
-    ·
-    <a href="https://x.com/picahq">X</a>
-    ·
-    <a href="https://www.linkedin.com/company/picahq">LinkedIn</a>
-  </b>
+  <a href="https://withone.ai/knowledge"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.withone.ai%2Fopen%2Fcount%2Fplatforms" alt="platforms"></a>
+  &nbsp;
+  <a href="https://withone.ai/knowledge"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.withone.ai%2Fopen%2Fcount%2Ftools" alt="tools"></a>
 </p>
 
 ---
 
-Connect LLMs to 25,000+ actions with Pica-verified knowledge and developer-friendly SDKs. No keys, no configs, no headaches.
+Build and connect AI agents to 250+ apps with production-ready actions. Create agents that can search, reason, and act across platforms, with managed auth, reliable execution, granular permissions, and full API knowledge built in. No OAuth wrangling, no API key juggling, no brittle integrations.
 
-Pica makes it simple to build and manage AI agents with 3 key products:
-1. **ToolKit**: Connect agents to over [150+ integrations](https://picaos.com/integrations) with a single SDK. Zero-shot execution that gets smarter with every use.
-2. **AuthKit**: Streamline authentication for multi-tenant applications with secure, end-to-end OAuth flows and automated token management. Handles the complexity of authentication so you don't have to.
-3. **BuildKit**: Empower vibe coding with integrations that work zero-shot.
+### Get started
 
-Built in Rust for blazing speed and ultra-low latency execution. Full logging and action traceability gives developers complete visibility into their agents' decisions and activities. Our tools simplify building and running AI agents so developers can focus on results.
+```bash
+$ npm install -g @withone/cli
+$ one init
+$ one onboard
+```
+
+The [One CLI](https://www.npmjs.com/package/@withone/cli) will prompt you for your API key (get one from the [dashboard](https://app.withone.ai/settings/api-keys)) and configure One for your agent of choice: Claude Desktop, Cursor, Claude Code, Windsurf, etc.
