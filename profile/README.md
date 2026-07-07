@@ -26,7 +26,7 @@
 
 ---
 
-Build and connect AI agents to 250+ apps with production-ready actions. Create agents that can search, reason, and act across platforms, with managed auth, reliable execution, granular permissions, and full API knowledge built in. No OAuth wrangling, no API key juggling, no brittle integrations.
+Build and connect AI agents to 500+ apps with production-ready actions. Create agents that can search, reason, and act across platforms, with managed auth, reliable execution, granular permissions, and full API knowledge built in. No OAuth wrangling, no API key juggling, no brittle integrations.
 
 ### Get started
 
