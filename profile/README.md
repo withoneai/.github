@@ -30,16 +30,6 @@ One is the trust layer for AI agents. Connect each app once, in an account that 
 
 **1,000+ platforms and 130,000+ verified tools**, each one tested before an agent runs it.
 
-### Products
-
-| Product | What it does | Repo |
-|---|---|---|
-| **[Connect](https://withone.ai/products/connect)** | Connect once, and every agent you run uses it. Add it to your own product too: a button and two backend routes let your users grant your app scoped, revocable access to their tools. | [`connect`](https://github.com/withoneai/connect) |
-| **[Knowledge](https://withone.ai/products/knowledge)** | The open API knowledge base behind every action: parameters, auth flows and edge cases, verified and free to use. | [`knowledge`](https://github.com/withoneai/knowledge) |
-| **[CLI](https://withone.ai/products/cli)** | The same connection from the terminal, for any agent that can run a command line. | [`cli`](https://github.com/withoneai/cli) |
-| **[MCP](https://withone.ai/products/mcp)** | Every connection you own, in any MCP agent, through three tools. | [`mcp`](https://github.com/withoneai/mcp) |
-| **[Relay](https://withone.ai/products/relay)** | Events from your apps to your agents. | |
-
 ### Get started
 
 Point any MCP agent at One's hosted server and sign in when it asks:
