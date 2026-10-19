@@ -26,9 +26,29 @@
 
 ---
 
-Build and connect AI agents to 500+ apps with production-ready actions. Create agents that can search, reason, and act across platforms, with managed auth, reliable execution, granular permissions, and full API knowledge built in. No OAuth wrangling, no API key juggling, no brittle integrations.
+One is the trust layer for AI agents. Connect each app once, in an account that belongs to you, and every agent you run works through that connection: scoped to the action, revocable in one click, and recorded in a complete audit trail. Agents get a grant, never your credentials. One is a passthrough, so your data is never stored.
+
+**1,000+ platforms and 130,000+ verified tools**, each one tested before an agent runs it.
+
+### Products
+
+| | |
+|---|---|
+| **[Connect](https://withone.ai/products/connect)** | Connect once, and every agent you run uses it. Add it to your own product too: a button and two backend routes let your users grant your app scoped, revocable access to their tools. [`connect`](https://github.com/withoneai/connect) |
+| **[Knowledge](https://withone.ai/products/knowledge)** | The open API knowledge base behind every action: parameters, auth flows and edge cases, verified and free to use. [`knowledge`](https://github.com/withoneai/knowledge) |
+| **[CLI](https://withone.ai/products/cli)** | The same connection from the terminal, for any agent that can run a command line. [`cli`](https://github.com/withoneai/cli) |
+| **[MCP](https://withone.ai/products/mcp)** | Every connection you own, in any MCP agent, through three tools. [`mcp`](https://github.com/withoneai/mcp) |
+| **[Relay](https://withone.ai/products/relay)** | Events from your apps to your agents. |
 
 ### Get started
+
+Point any MCP agent at One's hosted server and sign in when it asks:
+
+```bash
+$ claude mcp add --transport http one https://mcp.withone.ai/mcp
+```
+
+Or install the CLI:
 
 ```bash
 $ npm install -g @withone/cli
@@ -36,4 +56,8 @@ $ one init
 $ one onboard
 ```
 
-The [One CLI](https://www.npmjs.com/package/@withone/cli) will prompt you for your API key (get one from the [dashboard](https://app.withone.ai/settings/api-keys)) and configure One for your agent of choice: Claude Desktop, Cursor, Claude Code, Windsurf, etc.
+The [One CLI](https://www.npmjs.com/package/@withone/cli) will prompt you for your API key (get one from the [dashboard](https://app.withone.ai/settings/api-keys)) and configure One for your agent of choice: Claude Code, Codex, Cursor, Claude Desktop, Windsurf and more. Setup guides for every agent are at [withone.ai/mcp](https://withone.ai/mcp).
+
+### See it working
+
+[Use cases](https://withone.ai/use-cases) shows working agents, each with its own repo, and [awesome-one](https://github.com/withoneai/awesome-one) collects what people have built on One.
