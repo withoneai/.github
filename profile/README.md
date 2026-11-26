@@ -1,9 +1,11 @@
-<a href="https://withone.ai">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/withoneai/.github/main/profile/assets/one-banner-dark.svg">
-    <img src="https://raw.githubusercontent.com/withoneai/.github/main/profile/assets/one-banner-light.svg" alt="One. Your agents. Your apps. Your connection." width="100%">
-  </picture>
-</a>
+<p>
+  <a href="https://withone.ai">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/withoneai/.github/main/profile/assets/one-banner-dark.svg">
+      <img src="https://raw.githubusercontent.com/withoneai/.github/main/profile/assets/one-banner-light.svg" alt="One. Your agents. Your apps. Your connection." width="100%">
+    </picture>
+  </a>
+</p>
 
 <p align="center">
   <a href="https://withone.ai"><strong>Website</strong></a>
